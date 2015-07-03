@@ -1,12 +1,4 @@
-# kostym
 
-## Why?
 
-## Implementations
 
-## Documentations
-
-## Learning
-
-## FAQ
-
+> Written with [StackEdit](https://stackedit.io/).
