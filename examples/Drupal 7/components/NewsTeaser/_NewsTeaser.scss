@@ -3,7 +3,7 @@
 }
 
 .NewsTeaser-date {
-  color: color-get(grey);
+  color: #ccc;
   min-width: span(1 of 6);
   margin-right: 1em;
   display: block;
@@ -12,7 +12,7 @@
     display: inline-block;
   }
 
-  @include break(twoColumn) {
+  @include break(800px) {
     min-width: span(1 of 4);
   }
 }

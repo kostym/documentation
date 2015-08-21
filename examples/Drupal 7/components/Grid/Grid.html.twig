@@ -1,0 +1,11 @@
+<div class="Grid">
+  {% spaceless %}
+    {% for item in items %}
+      {% block cell %}
+        <div class="Grid-cell">
+          {{ item }}
+        </div>
+      {% endblock %}
+    {% endfor %}
+  {% endspaceless %}
+</div>
