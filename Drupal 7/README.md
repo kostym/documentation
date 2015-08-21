@@ -8,38 +8,62 @@ In your profile's module folder there is a module called components. The compone
 
 <pre>
 .yourProfile
-└─── modules
-     ├───components
-     │     │   components.info
-     │     │   components.module
-     │     │   <i>Your components gose here.</i>
+│
+└───modules
+    │
+    └───components
+        │   components.info
+        │   components.module
+        │   <i>Your components gose here.</i>
  </pre>
 
 Because of almost all styling and templates are in components you don't touch the theme that much. But one key part is still in the theme, a task runner, usually grunt or gulp. It is responsible for compiling, minifying, linting, etc. CSS, JavaScript and SVG.
 
 <pre>
 .yourProfile
-└─── themes
-     ├───yourTheme
-     │     │   yourTheme.info
-     │     │   template.php
-     │     └───dist
-     │     │     │   <i>All the compiled files.</i>
+│
+└───themes
+    │
+    ├───yourTheme
+    │   │   yourTheme.info
+    │   │   template.php
+    │   │
+    │   └───dist
+    │       │   <i>All the compiled files.</i>
  </pre>
 
 
 ### Long explanation
 
-```
+<pre>
 .yourProfile
-└─── modules
-     ├───features
-     │     │   ...
-     ├───components
-     │     │   ...
-     └───contrib
-     │     │   ...
-     └───themes
-		└───yourTheme
-    	    │   
-```
+│
+├───modules
+│   │
+│   ├───features
+│   │   │   <i>All features</i>
+│   │
+│   ├───components     
+│   │   │   components.info
+│   │   │   components.module     
+│   │   │   components.libraries.php
+│   │   │
+│   │   ├───<b>ExampleComponent</b>
+│   │   │   │   ExampleComponent.info
+│   │   │   │   ExampleComponent.module
+│   │   │   │   _ExampleComponent.scss
+│   │   │
+│   │   │   <i>Rest of your components gose here.</i>
+│   │   
+│   └───contrib
+│       │   <i>contrib modules.</i>
+│
+└───themes
+    │
+    ├───yourTheme
+    │   │   yourTheme.info
+    │   │   template.php
+    │   │
+    │   └───dist
+    │       │   <i>All the compiled files.</i>
+ </pre>
