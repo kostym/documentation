@@ -1,0 +1,31 @@
+.Icon {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.Icon-svg {
+  display: inline-block;
+  width: inherit;
+  height: inherit;
+  vertical-align: top;
+}
+
+// Icons
+
+.Icon--clock {
+  width: 20px;
+  height: 19px;
+}
+
+.Icon--menuArrowLeft,
+.Icon--menuArrowRight {
+  width: 8px;
+  height: 13px;
+}
+
+.Icon--playCircle {
+  width: 40px;
+  height: 40px;
+  fill: white;
+}

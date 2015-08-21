@@ -1,0 +1,9 @@
+.Logo {
+  @include grunticon(logo);
+  height: 66px;
+  width: 72px;
+  margin: 27px 0;
+  float: left;
+  overflow: hidden;
+  text-indent: -9999px;
+}

@@ -1,0 +1,32 @@
+{# slate
+  name = NewsFull
+  models[node] = entity:node
+  view_mode[node][news] = full
+#}
+
+<div class="NewsFull">
+  <h1>{{ node.label }}</h1>
+  <span>{{ format_date(node.created, 'short') }}</span>
+  {% if node.field_news_lead.raw %}
+    <p>{{ node.field_news_lead.value|raw }}</p>
+  {% endif %}
+
+  {% if node.field_news_image.value.uri %}
+    {% include 'MainContentImage.html.twig' with {'imageField': node.field_news_image.value} %}
+  {% endif %}
+
+  {% if node.field_news_body.raw %}
+    {{ node.field_news_body.value|raw }}
+  {% endif %}
+
+  {% if node.field_ref_webform.raw %}
+    {{ drupal_render(node_view(node.field_ref_webform.value, 'full'))|raw }}
+  {% endif %}
+
+  {% if node.field_news_links.raw %}
+    <h2>{{ t('Links') }}</h2>
+    {% include 'LinkList.html.twig' with {'links': node.field_news_links.value()} %}
+  {% endif %}
+
+  {% include 'ResourceList.html.twig' with {'resources': node.field_news_resource.value()} %}
+</div>

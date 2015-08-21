@@ -1,0 +1,18 @@
+.NewsTeaser {
+  margin: 15px 0;
+}
+
+.NewsTeaser-date {
+  color: color-get(grey);
+  min-width: span(1 of 6);
+  margin-right: 1em;
+  display: block;
+
+  @include breakpoint(550px) {
+    display: inline-block;
+  }
+
+  @include break(twoColumn) {
+    min-width: span(1 of 4);
+  }
+}

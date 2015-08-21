@@ -1,0 +1,10 @@
+@include break(twoColumn) {
+  .PageTwoColumns-region--sidebar {
+    @include span(2 of 6);
+  }
+
+
+  .PageTwoColumns-region--main {
+    @include span(last 4 of 6);
+  }
+}
