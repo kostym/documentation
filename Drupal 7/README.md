@@ -1,7 +1,7 @@
 # Kostym Drupal 7
 
 ## Implementation 
-Note: This is a working process. This will change and if you figure out a better solution or have feedback please don't be quiet.
+**Note:** This is a working process. This will change and if you figure out a better solution or have feedback please don't be quiet.
 
 ### Short explanation
 In your profile's module folder there is a module called components. The components module is a helper module with functions like doing theme overrides in modules much easier. It's also here you place your components, right in the componets module. 
@@ -43,25 +43,3 @@ Because of almost all styling and templates are in components you don't touch th
 		└───yourTheme
     	    │   
 ```
-
-## Examples components
-In the componets folder there are a few components from different projects to show examples of how components can be structured.
-Note: Because the components are taken out of context some logic may not make sense.
-
-### Grid
-twig file
-
-### Icon
-Function
-
-### Logo
-Ctools plugin
-
-### NewsFull & NewsTeaser
-View mode override
-
-### PageTwoColumns
-Panels layout
-
-### Tabs
-Theme override
