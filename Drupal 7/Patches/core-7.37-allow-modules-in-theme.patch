@@ -1,5 +1,5 @@
 diff --git a/includes/common.inc b/includes/common.inc
-index cd30145..8887482 100644
+index cd30145..6f26f9e 100644
 --- a/includes/common.inc
 +++ b/includes/common.inc
 @@ -5497,6 +5497,11 @@ function drupal_system_listing($mask, $directory, $key = 'name', $min_depth = 1)
@@ -21,7 +21,7 @@ index cd30145..8887482 100644
 +  // Avoid components to be added as themes
 +  if($directory == 'themes'){
 +    foreach($files as $file_key => $file){
-+      if(preg_match('/components\/' . $file_key . '\/' . $file_key . '\.info$/', $file->uri)){
++      if(preg_match('/kostym_components\/' . $file_key . '\/' . $file_key . '\.info$/', $file->uri)){
 +        unset($files[$file_key]);
 +      }
 +    }
