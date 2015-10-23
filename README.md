@@ -1,5 +1,7 @@
 # Kostym
 
+![Kostym logo](https://cdn.css-tricks.com/wp-content/uploads/2015/05/kiwi.svg "Kostym - Dressed maintainability")
+
 ## What is Kostym and why use it?
 Kostym is a solution proposal for better maintainability in projects. Based on the reliable and well tested styling solution [Suit](https://github.com/suitcss/suit).
 Kostym embraces that way of thinking from the front-end down to the backend. Resulting in code that is contained in a component and therefore modular and maintainable, and in some cases even reusable in other projects.
