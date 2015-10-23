@@ -1,6 +1,4 @@
-# Kostym
-
-<img src="http://imgh.us/Kostym_logo.svg" alt="Kostym logo" title="Kostym - Dressed maintainability" width="200"/>
+<img src="http://imgh.us/Kostym_logo.svg" alt="Kostym logo" title="Kostym - Dressed maintainability" width="300"/>
 
 ## What is Kostym and why use it?
 Kostym is a solution proposal for better maintainability in projects. Based on the reliable and well tested styling solution [Suit](https://github.com/suitcss/suit).
