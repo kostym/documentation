@@ -5,15 +5,15 @@
 
 ### Why?
 
-If you have ever jumped into an already started project or gone back to an old site and just did not remember or understand how things worked, that's what Kostym is for. Maintainability in component-based web applications.
+If you've ever had to go back to an old project or take over an existing code base, you have probably experienced the frustrating feeling of not remembering or understanding how things are put together. We did something about it.
 
 ### How?
 
-By standardizing how to structure code into components from the front-end down to the backend, based on the reliable and well tested styling solution [Suit](https://github.com/suitcss/suit), we achieve code that is modular, maintainable and in some cases even reusable in other projects.
+By standardizing how to structure code into components from the front-end down to the backend, based on the reliable and well tested styling solution [Suit](https://github.com/suitcss/suit), we achieve code that is modular, maintainable and in some cases even reusable in other projects. 
 
 ### What?
 
-Regardless how the code is being generated, whether it be sass, less, inline styling, babel, coffeescript, twig, jsx or any other source, you always know where to look for that specific component code. 
+Regardless how the code is being generated, whether it be Sass, Less, inline styling, Babel, CoffeeScript, Twig, JSX or any other source, you always know where to look for that specific component code. 
 
 #### Example component: SalesPitch
 
@@ -24,7 +24,7 @@ Regardless how the code is being generated, whether it be sass, less, inline sty
   <p class="SalesPitch-paragraph">
     Components based solution for front-end maintainability
   </p>
-  <button class="Button js-SalesPitch">Like</button>
+  <button class="Button js-SalesPitch-like">Like</button>
 </section>
 ``` 
 
@@ -45,7 +45,7 @@ Regardless how the code is being generated, whether it be sass, less, inline sty
 **JS**
 
 ``` js
-$(".js-SalesPitch").on('click', like);
+$(".js-SalesPitch-like").on('click', like);
 ```
 
 **Tree structure**
@@ -54,7 +54,7 @@ $(".js-SalesPitch").on('click', like);
 .
 └── kostym_components
     ├── Button
-    └── SalesPitch <-- <i>Here is everything related to the SalesPitch component</i>
+    └── SalesPitch <-- <i>Here is all the SalesPitch component code</i>
 </pre>
 
 ## Suit documentations
