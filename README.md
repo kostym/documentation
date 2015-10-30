@@ -9,7 +9,7 @@ If you've ever had to go back to an old project or take over an existing code ba
 
 ### How?
 
-By standardizing how to structure code into components from the front-end down to the backend, based on the reliable and well tested styling solution [Suit](https://github.com/suitcss/suit), we achieve code that is modular, maintainable and in some cases even reusable in other projects. 
+By standardizing how to structure code into components from the front-end down to the backend, based on the reliable and well tested styling solution [Suit](https://github.com/suitcss/suit), we achieve code that is modular, maintainable, and in some cases even reusable in other projects. 
 
 ### What?
 
