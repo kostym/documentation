@@ -4,6 +4,53 @@
 Kostym is a solution proposal for better maintainability in projects. Based on the reliable and well tested styling solution [Suit](https://github.com/suitcss/suit).
 Kostym embraces that way of thinking from the front-end down to the backend. Resulting in code that is contained in a component and therefore modular and maintainable, and in some cases even reusable in other projects.
 
+Kostym is technology agnostic when it comes to component-based web application. It's a standard on how to structure your code into components. In the example below the end result to the browser is a piece of HTML, CSS and JS.
+
+#### Example component: SalesPitch
+
+**HTML**
+
+``` html
+<section class="SalesPitch">
+  <p class="SalesPitch-paragraph">
+    Components based solution for front-end maintainability
+  </p>
+  <button class="Button js-SalesPitch">Like</button>
+</section>
+``` 
+
+**CSS**
+
+``` css
+.SalesPitch{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.SalesPitch-paragraph{
+  background-color: #eee;
+  padding: 25px 35px;
+  text-align: center;
+}
+```
+**JS**
+
+``` js
+$(".js-SalesPitch").on('click', like);
+```
+
+
+Regardless how the code above is being generated, whether it be sass, less, inline styling, babel, coffeescript, twig, jsx or any other source, you always now where to look for that specific component code.
+
+**Tree structure**
+
+<pre>
+.
+└── kostym_components
+    ├── Button
+    └── SalesPitch <-- <i>Here is everything related to the SalesPitch component</i>
+</pre>
+
 ## Suit documentations
 The whole [Suit documentation](https://github.com/suitcss/suit) is quite large.
 
