@@ -2,9 +2,18 @@
 
 
 ## What is Kostym and why use it?
-Kostym is a system for better maintainability in projects, based on the reliable and well tested styling solution [Suit](https://github.com/suitcss/suit). Kostym embraces that way of thinking from the front-end down to the backend, resulting in code that is contained in components and therefore modular and maintainable and in some cases even reusable in other projects.
 
-Kostym is technology agnostic when it comes to component-based web applications. It's a standard on how to structure your code into components. In the example below the end result to the browser is a piece of HTML, CSS and JS.
+### Why?
+
+If you have ever jumped into an already started project or gone back to an old site, and just did not remember or understand how things worked, that's what Kostym is for. Maintainability in component-based web applications.
+
+### How?
+
+By standardizing how to structure code into components from the front-end down to the backend, based on the reliable and well tested styling solution [Suit](https://github.com/suitcss/suit), we achieve code that is modular, maintainable and in some cases even reusable in other projects.
+
+### What?
+
+Regardless how the code is being generated, whether it be sass, less, inline styling, babel, coffeescript, twig, jsx or any other source, you always know where to look for that specific component code. 
 
 #### Example component: SalesPitch
 
@@ -22,12 +31,12 @@ Kostym is technology agnostic when it comes to component-based web applications.
 **CSS**
 
 ``` css
-.SalesPitch{
+.SalesPitch {
   margin-left: 10px;
   margin-right: 10px;
 }
 
-.SalesPitch-paragraph{
+.SalesPitch-paragraph {
   background-color: #eee;
   padding: 25px 35px;
   text-align: center;
@@ -38,9 +47,6 @@ Kostym is technology agnostic when it comes to component-based web applications.
 ``` js
 $(".js-SalesPitch").on('click', like);
 ```
-
-
-Regardless how the code above is being generated, whether it be sass, less, inline styling, babel, coffeescript, twig, jsx or any other source, you always know where to look for that specific component code.
 
 **Tree structure**
 
