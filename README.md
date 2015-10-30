@@ -5,7 +5,7 @@
 
 ### Why?
 
-If you have ever jumped into an already started project or gone back to an old site, and just did not remember or understand how things worked, that's what Kostym is for. Maintainability in component-based web applications.
+If you have ever jumped into an already started project or gone back to an old site and just did not remember or understand how things worked, that's what Kostym is for. Maintainability in component-based web applications.
 
 ### How?
 
